@@ -15,7 +15,7 @@
     top: 0;
     width: 50%;
     height: 100%;
-    background: #212529;
+    background: #050953;
     z-index: 999;
 }
 
@@ -84,12 +84,11 @@
     letter-spacing: 12px;
     display: inline-block;
     position: relative;
-    font-size: 100px;
+    font-size: 300px;
     line-height: 70px;
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    /* -webkit-text-stroke-color: rgba(255, 255, 255, 0.30);  */
   }
   
   .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {animation-delay: 0.2s;}
@@ -117,7 +116,7 @@
   }
   
   .shifa-preloader .animation-preloader .txt-loading .letters-loading:before{
-     color: #001d85; 
+     color: #A9A9A9; 
   }
   
   @keyframes letters-loading {

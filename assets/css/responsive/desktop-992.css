@@ -37,14 +37,6 @@
         display: none;
     }
 
-    .hero-carousel .slide-item .image-layer {
-        background-position: inherit;
-    }
-
-    .hero-content {
-        width: 78%;
-    }
-
     .protection-content h4 {
         font-size: 29px;
         line-height: 42px;

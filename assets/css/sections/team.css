@@ -132,7 +132,7 @@
 }
 
 span.fill {
-    background: #001d85 !important;
+    background: #050953 !important;
     border-radius: 0px 15px 15px 0px;
 }
 
@@ -190,7 +190,7 @@ span.fill {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #001d85;
+    background: #050953;
     border-radius: 50%;
     transform: scale(0);
     transition: .5s;

@@ -13,15 +13,6 @@
         display: none;
     }
 
-    .hero-carousel .slide-item .image-layer {
-        background-position: inherit;
-    }
-
-    .hero-content {
-        width: 100%;
-        left: 3%;
-    }
-
     .hero-main-title h1 {
         font-size: 68px;
     }
@@ -111,16 +102,11 @@
     }
 
     .mobile-menu-section {
-        background: #001d85 !important;
+        background: #050953 !important;
     }
 
     .mobile-menu-section.sticky-menu {
-        background: #001d85 !important;
-    }
-
-    .hero-carousel .active .slide-item .image-layer {
-        background-position: center center;
-        background-size: cover;
+        background: #050953 !important;
     }
 
     .about-us-section {

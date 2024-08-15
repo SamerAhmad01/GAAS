@@ -7,7 +7,7 @@
     font-size: 18px;
     color: #ffffff;
     font-family: "Raleway";
-    background: #001d85;
+    background: #050953;
     text-decoration: none;
     padding: 16px 27px;
     position: relative;
@@ -56,7 +56,7 @@
 
 .gaas-btn.explore a {
     background: #FFF;
-    color: #001d85;
+    color: #050953;
 }
 
 .gaas-btn.explore a:hover {

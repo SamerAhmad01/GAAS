@@ -30,7 +30,7 @@
     display: block;
     font-size: 18px;
     font-weight: 500;
-    color: #001d85;
+    color: #050953;
 }
 
 .about-us-section.inner-page {
@@ -58,7 +58,7 @@
     text-align: center;
     line-height: 56px;
     margin-left: 27px;
-    color: #001d85;
+    color: #050953;
 }
 
 .section-main-title.about-us h2 {
@@ -86,7 +86,7 @@ ul.tabs {
 }
 
 .tab.list-tab ul li.current a {
-    background: #001d85 !important;
+    background: #050953 !important;
     color: #FFF !important;
 }
 

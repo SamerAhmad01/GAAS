@@ -103,7 +103,7 @@
 .sidebar-group ul.list-style-one li i {
     font-size: 20px;
     font-weight: 600;
-    color: #001d85;
+    color: #050953;
     margin: 0 10px 0 0px;
 }
 
@@ -134,7 +134,7 @@
 
 .sidebar-group ul.social-box li a:hover {
     background: var(--primary-color);
-    color: #001d85;
+    color: #050953;
 }
 
 .sidebar-menu {
@@ -177,7 +177,7 @@
 }
 
 .sidebar-widget-menu ul li .home-menu-title h4 a:hover {
-    color: #001d85;
+    color: #050953;
 }
 
 .sidebar-widget-menu ul li .home-menu-title h4 a::before {

@@ -16,15 +16,6 @@
         display: none;
     }
 
-    .hero-carousel .slide-item .image-layer {
-        background-position: inherit;
-    }
-
-    .hero-content {
-        width: 100%;
-        left: 3%;
-    }
-
     .hero-main-title h1 {
         font-size: 38px;
         line-height: 52px;
@@ -174,17 +165,11 @@
     }
 
     .mobile-menu-section {
-        background: #001d85 !important;
+        background: #050953 !important;
     }
 
     .mobile-menu-section.sticky-menu {
-        background: #001d85 !important;
-    }
-
-    .hero-carousel .active .slide-item .image-layer {
-        background-position: center center;
-        background-size: cover;
-        height: 750px;
+        background: #050953 !important;
     }
 
     .feature-description p {

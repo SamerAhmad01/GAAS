@@ -72,21 +72,9 @@
         $(this).addClass('active');
         event.preventDefault();
     });
-
-
-    // Slider
-    $('.hero-carousel').owlCarousel({
-        items: 1,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        loop: true,
-        animateOut: 'fadeOut',
-        dots: false,
-        nav: true,
-        navText: ["<i class='fa fa-long-arrow-left''></i>", "<i class='fa fa-long-arrow-right''></i>"],
-    });
-
-
+    window.onload = function() {
+        document.querySelector('.hero-content').classList.add('active');
+    };
 
     // Script nav
     $(".team-btn").click(function () {

@@ -1,7 +1,7 @@
 
 
 .mobile-menu-section {
-  background: #001d85;
+  background: #050953;
   padding: 20px;
 }
 
@@ -17,7 +17,7 @@
   animation: 500ms running fadeInUp;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   transition: 0.5s !important;
-  background: #001d85!important;
+  background: #050953!important;
   z-index: 9 !important;
   animation-name: slideInDown;
   padding: 20px;

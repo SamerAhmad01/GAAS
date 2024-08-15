@@ -1,6 +1,6 @@
 .section-sub-title h4 {
     font-size: 19px;
-    color: #001d85;
+    color: #050953;
     font-weight: 600;
     font-family: "Raleway";
     margin-bottom: 12px;
@@ -14,7 +14,28 @@
     content: "";
     width: 82px;
     height: 2px;
-    background: #001d85;
+    background: #050953;
+    left: 0;
+    top: 50%;
+}
+
+.choose-us-section-sub-title h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    margin-bottom: 12px;
+    padding: 0 95px;
+    position: relative;
+    display: inline-block;
+}
+
+.choose-us-section-sub-title h4::before {
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: 2px;
+    background: #ffffff;
     left: 0;
     top: 50%;
 }
@@ -28,11 +49,11 @@
 }
 
 .section-sub-title.inner h4 {
-    color: #001d85;
+    color: #050953;
 }
 
 .section-sub-title.inner h4::before {
-    background: #001d85;
+    background: #050953;
 }
 
 .section-main-title.inner h2 {

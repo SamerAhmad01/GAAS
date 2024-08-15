@@ -31,7 +31,7 @@
 .accordion li a i {
     width: 36px;
     height: 36px;
-    background: #001d85;
+    background: #050953;
     display: inline-block;
     text-align: center;
     line-height: 38px;
@@ -39,7 +39,7 @@
 }
 
 .accordion li a.inner i {
-    background: #001d85;
+    background: #050953;
 }
 
 .accordion a.active {
@@ -49,7 +49,7 @@
 
 .accordion a.active i {
     color: #fff;
-    background: #001d85;
+    background: #050953;
     border: none;
     margin-bottom: 0;
     transform: rotate(90deg);
