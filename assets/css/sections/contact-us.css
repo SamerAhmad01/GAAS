@@ -1,0 +1,125 @@
+.contact-us-section {
+    background: url(../images/resource/get-ng.jpg);
+    background-position: center ceneter;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0 120px;
+}
+
+.contact-us-form {
+    filter: drop-shadow(0px 1px 25.5px rgba(2, 91, 86, 0.09));
+    background-color: #ffffff;
+    padding: 50px 60px 68px;
+    margin-top: 55px;
+}
+
+.choose-us-list span i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    font-size: 18px;
+    color: #001d85;
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.form-box.inner input {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.form-box.inner input::placeholder {
+    font-size: 20px;
+    line-height: 60px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.form-box.inner textarea {
+    height: 50px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.form-box.inner textarea::placeholder {
+    font-size: 20px;
+    line-height: 60px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.form-box-button button {
+    width: 210px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #001d85;
+    border: 0;
+    outline: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.form-box-button button::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0.0, 1);
+    opacity: 0;
+    border-radius: 3px;
+    z-index: -1;
+    transition: .5s;
+}
+
+.form-box-button button:hover::before {
+    background: #18191D;
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.form-box-button.inner {
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    height: 64px;
+    background: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 0 17px;
+    margin-bottom: 25px;
+}
+
+.form-box input::placeholder {
+    color: #525459;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-box textarea {
+    width: 100%;
+    height: 145px;
+    background: #ffff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 17px;
+    margin-bottom: 25px;
+}
+
+.form-box textarea::placeholder {
+    color: #525459;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}

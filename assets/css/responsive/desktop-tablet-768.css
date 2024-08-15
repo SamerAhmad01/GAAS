@@ -1,0 +1,201 @@
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sidebar-menu {
+        display: inherit;
+    }
+
+    .banner-section {
+        display: none;
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .hero-carousel .slide-item .image-layer {
+        background-position: inherit;
+    }
+
+    .hero-content {
+        width: 100%;
+        left: 3%;
+    }
+
+    .hero-main-title h1 {
+        font-size: 68px;
+    }
+
+    .about-us-thumb img {
+        margin-bottom: 30px;
+    }
+
+    .service-section {
+        padding: 68px 0 40px;
+    }
+
+    .service-single-box {
+        margin-bottom: 60px;
+    }
+
+    .protection-section {
+        background-position: inherit;
+        padding: 80px 0 0;
+    }
+
+    .protection-content h4 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .gaas-btn.protection {
+        text-align: left;
+        margin-top: 13px;
+    }
+
+    .choose-us-thumb-items {
+        margin-top: 30px;
+    }
+
+    .choose-us-thumb.three {
+        right: 0;
+    }
+
+    .testimonial-section {
+        padding: 70px 0 70px;
+    }
+
+    .testimonial-thumb img {
+        width: 100%;
+    }
+
+    .testimonial-counter {
+        right: 20px;
+    }
+
+    .footer-section {
+        padding: 67px 0 0px;
+    }
+
+    .footer-wiget {
+        margin-bottom: 30px;
+    }
+
+    .footer-wiget.inner3 {
+        display: none;
+    }
+
+    .footer-wiget.inner {
+        left: -28px;
+    }
+
+    .footer-wiget.inner::before {
+        display: none;
+    }
+
+    .footer-wiget-logo {
+        top: -22px;
+    }
+
+    .contact-us-form {
+        padding: 70px 0 70px;
+    }
+
+    .get-in-thumb img {
+        width: 100%;
+    }
+
+    .gaas-btn.solution {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .mobile-menu-section {
+        background: #001d85 !important;
+    }
+
+    .mobile-menu-section.sticky-menu {
+        background: #001d85 !important;
+    }
+
+    .hero-carousel .active .slide-item .image-layer {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .about-us-section {
+        padding: 50px 0 65px;
+    }
+
+    .choose-us-section {
+        padding: 70px 0 0px;
+    }
+
+    .choose-us-section::before {
+        display: none;
+    }
+
+    .faq-items-box {
+        margin-top: 30px;
+    }
+
+    .breatcome-section {
+        padding: 170px 0 100px;
+    }
+
+    .about-us-section.inner-page {
+        padding: 74px 0 74px;
+    }
+
+    .team-section {
+        padding: 66px 0 148px;
+    }
+
+    .team-single-box.inner2 {
+        margin-top: 100px;
+    }
+
+    .team-thumb img {
+        width: 100%;
+    }
+
+    .faq-section {
+        padding: 72px 0 59px;
+    }
+
+    .contact-section {
+        padding: 74px 0 74px;
+    }
+
+    .contact-box {
+        margin-top: 30px;
+    }
+
+    .error-section {
+        padding: 74px 0 73px;
+    }
+
+    .faq-thumb img {
+        width: 100%;
+    }
+
+    .widget-download-box {
+        margin-bottom: 60px;
+    }
+
+    .team-details-section {
+        padding: 72px 0 0;
+    }
+
+    .row.author-info {
+        margin-top: 0;
+    }
+
+    .widget_search.box {
+        margin-top: 30px;
+    }
+
+    .recent-widget-thumb {
+        margin-top: 0px;
+    }
+}

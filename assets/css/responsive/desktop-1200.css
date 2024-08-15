@@ -1,0 +1,71 @@
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+    .mobile-menu-section {
+        display: none;
+    }
+
+    .header-menu ul li {
+        margin-right: 7px;
+    }
+
+    .header-search {
+        margin-right: 20px;
+    }
+
+    .gaas-btn a {
+        padding: 16px 15px;
+    }
+
+    .protection-content h4 {
+        font-size: 36px;
+    }
+
+    .choose-us-list span {
+        font-size: 16px;
+    }
+
+    .testimonial-thumb img {
+        width: 100%;
+    }
+
+    .testimonial-counter {
+        right: 20px;
+    }
+
+    .footer-wiget.inner::before {
+        width: 400px;
+    }
+
+    .footer-wiget-text h4 {
+        font-size: 14px;
+    }
+
+    .footer-social ul li {
+        margin-right: 6px;
+    }
+
+    .header-section::before {
+        height: 100%;
+    }
+
+    .faq-thumb img {
+        width: 100%;
+    }
+
+    .widget-download-btn a {
+        padding: 22px 48px;
+    }
+
+    .barfiller {
+        width: 100%;
+    }
+
+    .widget-recent-box {
+        padding: 50px 15px 55px;
+    }
+
+    .sidber-widget-recent-post {
+        padding: 16px 20px;
+    }
+
+}

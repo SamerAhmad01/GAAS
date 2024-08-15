@@ -1,0 +1,236 @@
+@media only screen and (min-width: 575px) and (max-width: 599px) {
+
+    .sidebar-menu {
+        display: inherit;
+    }
+
+    .banner-section {
+        display: none;
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .hero-carousel .slide-item .image-layer {
+        background-position: inherit;
+    }
+
+    .hero-content {
+        width: 100%;
+        left: 3%;
+    }
+
+    .hero-main-title h1 {
+        font-size: 68px;
+    }
+
+    .about-us-thumb img {
+        margin-bottom: 30px;
+    }
+
+    .protection-section {
+        background-position: inherit;
+        padding: 52px 0 0;
+    }
+
+    .gaas-btn.protection {
+        text-align: left;
+        margin-top: 13px;
+    }
+
+    .choose-us-thumb-items {
+        margin-top: 30px;
+    }
+
+    .choose-us-thumb.three {
+        display: none;
+    }
+
+    .section-main-title h2 {
+        font-size: 37px;
+    }
+
+    .testimonial-section {
+        padding: 70px 0 70px;
+    }
+
+    .testimonial-thumb img {
+        width: 100%;
+    }
+
+    .testimonial-counter {
+        right: 20px;
+    }
+
+    .footer-section {
+        padding: 67px 0 0px;
+    }
+
+    .footer-wiget {
+        margin-bottom: 30px;
+    }
+
+    .footer-wiget.inner3 {
+        display: none;
+    }
+
+    .footer-wiget.inner {
+        left: -120px;
+    }
+
+    .footer-wiget.inner::before {
+        display: none;
+    }
+
+    .footer-wiget-logo {
+        top: -22px;
+    }
+
+    .footer-wiget-text h4 {
+        width: 58%;
+        margin: auto;
+        padding: 0 0 22px;
+    }
+
+    .contact-us-form {
+        padding: 70px 0 70px;
+    }
+
+    .get-in-thumb img {
+        width: 100%;
+    }
+
+    .mobile-menu-section {
+        background: #001d85 !important;
+    }
+
+    .mobile-menu-section.sticky-menu {
+        background: #001d85 !important;
+    }
+
+    .hero-carousel .active .slide-item .image-layer {
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .about-us-section {
+        padding: 50px 0 65px;
+    }
+
+    .choose-us-section {
+        padding: 70px 0 0px;
+    }
+
+    .choose-us-section::before {
+        display: none;
+    }
+
+    .faq-items-box {
+        margin-top: 30px;
+    }
+
+
+    .breatcome-section {
+        padding: 170px 0 100px;
+    }
+
+    .about-us-section.inner-page {
+        padding: 74px 0 74px;
+    }
+
+    .team-section {
+        padding: 66px 0 148px;
+    }
+
+    .team-single-box.inner {
+        margin-top: 100px;
+    }
+
+    .team-single-box.inner2 {
+        margin-top: 100px;
+    }
+
+    .team-thumb img {
+        width: 100%;
+    }
+
+    .faq-section {
+        padding: 72px 0 59px;
+    }
+
+    .faq-section .row.p-90 {
+        padding: 0;
+    }
+
+    .accordion li a span {
+        font-size: 18px;
+    }
+
+    .accordion li a {
+        padding: 12px 15px 12px;
+    }
+
+    .contact-us-section {
+        padding: 74px 0 74px;
+    }
+
+    .error-section {
+        padding: 74px 0 73px;
+    }
+
+    .faq-thumb img {
+        width: 100%;
+    }
+
+    .widget-download-box {
+        margin-bottom: 60px;
+    }
+
+    .widget-download-btn a {
+        padding: 22px 145px;
+    }
+
+    .team-details-section {
+        padding: 72px 0 0;
+    }
+
+    .team-details-section .process-ber-plugin {
+        margin: 40px 0 0;
+    }
+
+    .row.author-info {
+        margin-top: 0;
+    }
+
+    .team-author-socila {
+        text-align: left;
+        margin-right: 0;
+        margin-top: 24px;
+    }
+
+    .team-author-socila ul li {
+        margin: 0px 0px 0;
+        display: inline-block;
+    }
+
+    .text-sm-end {
+        margin-top: 15px;
+    }
+
+    .blog-comment-box.inner {
+        margin-left: 0;
+    }
+
+    .widget_search.box {
+        margin-top: 30px;
+    }
+
+    .sidber-widget-recent-post {
+        padding: 16px 12px;
+    }
+
+     .shifa-preloader .animation-preloader .txt-loading .letters-loading{
+        letter-spacing: 8px;
+      }
+}

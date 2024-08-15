@@ -1,0 +1,198 @@
+.header-section {
+    position: relative;
+    background: #fff;
+    filter: drop-shadow(0px 1px 25.5px rgba(0, 0, 0, 0.11));
+    z-index: 9;
+}
+
+.header-section::before {
+    position: absolute;
+    content: "";
+    width: 452px;
+    height: 140px;
+    background-color: #001d85;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: url(../../images/resource/header-shape3.png);
+}
+
+.header-section .container {
+    max-width: 1600px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-right: 54px;
+}
+
+.header-menu ul li a {
+    font-size: 18px;
+    color: #001d85;
+    font-weight: 500;
+    position: relative;
+    transition: .5s;
+    padding: 36px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header-menu ul li a:hover {
+    color: #001d85;
+}
+
+.header-menu ul li a i {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: -6px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    margin-right: 44px;
+}
+
+.header-sidebar {
+    margin-left: 35px;
+}
+
+.header-sidebar a {
+    font-size: 42px;
+    color: #001d85;
+}
+
+.sticky-nav {
+    left: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+    width: 100%;
+    position: fixed !important;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    -webkit-animation: 300ms running fadeInDown;
+    animation: 500ms running fadeInUp;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    transition: 0.5s !important;
+    background: #FFF !important;
+    z-index: 9999 !important;
+    animation: fadeInDown 1s both 0.2s;
+    padding: 0 30px;
+}
+
+.sticky-nav .logo {
+    margin-top: 0;
+}
+
+.header-menu ul .sub-menu {
+    background: #fff;
+    position: absolute;
+    top: 98%;
+    border-radius: 5px;
+    width: 250px;
+    text-align: left;
+    margin: 0;
+    -webkit-box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-transform: scaleY(0) translateZ(100px);
+    transform: scaleY(0) translateZ(100px);
+    -webkit-transition: opacity 500ms ease, visibility 500ms ease, -webkit-transform 700ms ease;
+    transition: opacity 500ms ease, visibility 500ms ease, -webkit-transform 700ms ease;
+    transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease;
+    transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease, -webkit-transform 700ms ease;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.header-menu ul li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1) translateZ(0px);
+    transform: scaleY(1) translateZ(0px);
+}
+
+.header-menu ul .sub-menu ul li {
+    display: inline-block;
+    margin-left: 0;
+    width: 100%;
+}
+
+.header-menu ul .sub-menu ul li a {
+    padding: 8px 12px;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    visibility: inherit !important;
+    color: #001d85;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.header-menu ul .sub-menu ul li a:hover {
+    color: #fff;
+}
+
+.header-menu ul .sub-menu ul li a::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: #001d85;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.header-menu ul .sub-menu ul li a:hover::before {
+    background: #001d85;
+    width: 100%;
+    opacity: 1;
+}
+
+.header-menu ul .sub-menu ul li a::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: #001d85;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.header-menu ul .sub-menu ul li a:hover::after {
+    color: #001d85;
+    width: 100%;
+    opacity: 1;
+}
+
+.mobile-menu-section {
+    display: none;
+}

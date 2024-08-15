@@ -1,0 +1,92 @@
+.about-us-section {
+    padding: 0 0 120px;
+    background: url(../../images/resource/get-ng.jpg);
+    padding: 110px 0 120px;
+}
+
+.about-us-thumb img {
+    width: 100%;
+}
+
+.about-us-description p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.about-us-phone {
+    margin-left: 26px;
+}
+
+.about-us-phone h5 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.about-us-phone h5 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #001d85;
+}
+
+.about-us-section.inner-page {
+    padding: 146px 0 123px;
+}
+
+.about-us-thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.about-us-icon i {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid #ececec;
+    display: inline-block;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 27px;
+    color: #001d85;
+}
+
+.section-main-title.about-us h2 {
+    margin-bottom: 20px;
+}
+
+ul.tabs {
+    margin: 20px 0 60px;
+}
+
+.tab.list-tab ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tab.list-tab ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #23222a;
+    font-weight: 500;
+    background: #ececec;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.tab.list-tab ul li.current a {
+    background: #001d85 !important;
+    color: #FFF !important;
+}
+

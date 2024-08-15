@@ -1,0 +1,88 @@
+.faq-section {
+    padding: 120px 0 100px;
+}
+
+.accordion li {
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -7px;
+    border-radius: 3px;
+}
+
+.accordion li a {
+    display: block;
+    cursor: pointer;
+    padding: 12px 16px 12px;
+    text-decoration: none;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4f4f9;
+}
+
+.accordion li a span {
+    font-size: 18px;
+    color: #23222a;
+    font-weight: 600;
+}
+
+.accordion li a i {
+    width: 36px;
+    height: 36px;
+    background: #001d85;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+}
+
+.accordion li a.inner i {
+    background: #001d85;
+}
+
+.accordion a.active {
+    background: #f4f4f9;
+    border: none;
+}
+
+.accordion a.active i {
+    color: #fff;
+    background: #001d85;
+    border: none;
+    margin-bottom: 0;
+    transform: rotate(90deg);
+}
+
+.accordion li p {
+    display: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #434141;
+    background: #f4f4f9;
+    padding: 11px 32px 28px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: -24px;
+}
+
+.accordion a.active:before {
+    display: none;
+}
+
+a.active {
+    color: #1c1632;
+}
+
+ul.accordion ul li a span {
+    color: #fff;
+}
+
+.faq-items-box {
+    filter: drop-shadow(0px 1px 20px rgba(0, 61, 77, 0.11));
+    background-color: #ffffff;
+    padding: 30px 30px 30px;
+}

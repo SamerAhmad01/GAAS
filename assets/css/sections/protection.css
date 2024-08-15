@@ -1,0 +1,29 @@
+.protection-section {
+    background: url(../../images/resource/protection-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 278px;
+    padding: 112px 0 0;
+}
+
+.protection-content h4 {
+    font-size: 42px;
+    line-height: 52px;
+    color: #f5fdff;
+    font-weight: 700;
+}
+
+.gaas-btn.protection {
+    display: block;
+    text-align: right;
+}
+
+.gaas-btn.protection a {
+    background: #f5fdff;
+    color: #001d85;
+}
+
+.gaas-btn.protection a:hover {
+    color: #FFF;
+}

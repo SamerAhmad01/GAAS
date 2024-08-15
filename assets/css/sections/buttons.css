@@ -1,0 +1,64 @@
+.gaas-btn {
+    display: inline-block;
+}
+
+.gaas-btn a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Raleway";
+    background: #001d85;
+    text-decoration: none;
+    padding: 16px 27px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.gaas-btn a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -30px;
+    width: 0;
+    height: 100%;
+    background: #212529;
+    transition: .5s;
+    transform: skew(35deg, 0deg) scale(1.7);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.gaas-btn a:hover:before {
+    width: 100%;
+}
+
+.gaas-btn.slider {
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-120px);
+    transform: translateY(-120px);
+    -webkit-transition-delay: 1000ms;
+    transition-delay: 1000ms;
+    -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+    transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+    transition: transform 2000ms ease, opacity 2000ms ease;
+    transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+}
+
+.active .gaas-btn.slider {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+}
+
+.gaas-btn.explore a {
+    background: #FFF;
+    color: #001d85;
+}
+
+.gaas-btn.explore a:hover {
+    color: #fff;
+}

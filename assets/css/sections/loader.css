@@ -1,0 +1,152 @@
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.7s 1s ease;
+    z-index: 666;
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #212529;
+    z-index: 999;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 3s 1.7s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 3s 1.7s ease;
+}
+
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+} 
+
+.shifa-preloader {
+    align-items: center;
+    -webkit-align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    height: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999999999;
+  }
+  
+  .shifa-preloader .animation-preloader {
+    position: absolute;
+  } 
+  
+  .shifa-preloader .animation-preloader .txt-loading {
+    text-align: center;
+    user-select: none;
+  }
+  
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:before{
+    animation: letters-loading 7s infinite;
+    content: attr(data-text-preloader);
+    left: 0;
+    opacity: 0;
+    top:0;
+    position: absolute;
+  }
+  
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading{
+    font-weight: 500;
+    letter-spacing: 12px;
+    display: inline-block;
+    position: relative;
+    font-size: 100px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-color: rgba(255, 255, 255, 0.30);  */
+  }
+  
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {animation-delay: 0.2s;}
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before {animation-delay: 0.4s;}
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(4):before {animation-delay: 0.6s;}
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(5):before {animation-delay: 0.8s;}
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before { animation-delay: 1s;}
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(7):before { animation-delay: 1.2s;}
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
+  .shifa-preloader .loader-section {
+    background-color: #ffffff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: calc(50% + 1px);
+  }
+  
+  .preloader .loaded .animation-preloader {
+    opacity: 0;
+    transition: 0.5s ease-out;
+  }
+  
+  .handle-preloader .animation-preloader .txt-loading .letters-loading{
+    
+  }
+  
+  .shifa-preloader .animation-preloader .txt-loading .letters-loading:before{
+     color: #001d85; 
+  }
+  
+  @keyframes letters-loading {
+    0%,
+    75%,
+    100% {
+      opacity: 0;
+      transform: rotateY(-90deg);
+    }
+  
+    25%,
+    50% {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
+  } 
+
+  @keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}

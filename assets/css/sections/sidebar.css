@@ -1,0 +1,185 @@
+.sidebar-textwidget .contact-info ul {
+    padding: 0;
+}
+
+.sidebar-group .widget-heading {
+    position: absolute;
+    top: 55px;
+    right: 32px;
+}
+
+.sidebar-group .sidebar-widget {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 480px;
+    z-index: 999999;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #171717;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+
+.sidebar-group.isActive .sidebar-widget {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+.sidebar-textwidget {
+    padding: 40px 32px;
+}
+
+.close-side-widget i {
+    color: #fff;
+    font-size: 30px;
+    display: block;
+}
+
+.sidebar-widget-container {
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sidebar-group.isActive .sidebar-widget-container {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sidebar-logo {
+    margin: 0 0 50px;
+}
+
+.sidebar-textwidget .sidebar-logo a img {
+    width: 50%;
+}
+
+.sidebar-group .about-box h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.sidebar-group .about-box p {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 0 0;
+}
+
+.sidebar-group .contact-info {
+    margin-top: 60px;
+}
+
+.sidebar-group .contact-info h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.sidebar-group ul.list-style-one li {
+    display: block;
+    list-style: none;
+    color: #fff;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.sidebar-group ul.list-style-one li i {
+    font-size: 20px;
+    font-weight: 600;
+    color: #001d85;
+    margin: 0 10px 0 0px;
+}
+
+.sidebar-group ul.social-box {
+    margin: 58px 0 0;
+    padding: 0;
+}
+
+.sidebar-group ul.social-box li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 6px 0 0;
+}
+
+.sidebar-group ul.social-box li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    background: #fff;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: .5s;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.sidebar-group ul.social-box li a:hover {
+    background: var(--primary-color);
+    color: #001d85;
+}
+
+.sidebar-menu {
+    position: absolute;
+    right: 27px;
+    top: 23px;
+    display: none;
+}
+
+.sidebar-menu a {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+
+.sidebar-widget-menu {
+    position: relative;
+}
+
+.sidebar-widget-menu ul li {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0 0 14px;
+}
+
+.sidebar-widget-menu ul li .home-menu-title h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sidebar-widget-menu ul li .home-menu-title h4 a {
+    font-size: 20px;
+    padding: 0px 0;
+    font-weight: 500;
+    color: #171717;
+}
+
+.sidebar-widget-menu ul li .home-menu-title h4 a:hover {
+    color: #001d85;
+}
+
+.sidebar-widget-menu ul li .home-menu-title h4 a::before {
+    display: none;
+}

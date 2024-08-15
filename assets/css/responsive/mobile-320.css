@@ -1,0 +1,391 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    .mobile-logo a img {
+        width: 56%;
+    }
+
+    .sidebar-menu {
+        display: inherit;
+    }
+
+    .banner-section {
+        display: none;
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .hero-carousel .slide-item .image-layer {
+        background-position: inherit;
+    }
+
+    .hero-content {
+        width: 100%;
+        left: 3%;
+    }
+
+    .hero-main-title h1 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    .hero-description p {
+        width: 100%;
+    }
+
+    .gaas-btn a {
+        padding: 16px 16px;
+    }
+
+    .section-sub-title h4::before {
+        width: 40px;
+    }
+
+    .section-main-title h2 {
+        font-size: 30px;
+    }
+
+    .about-us-thumb img {
+        margin-bottom: 30px;
+    }
+
+    .tab.list-tab ul li a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    
+    .about-us-phone {
+        display: none;
+    }
+
+    .protection-section {
+        background-position: inherit;
+        padding: 52px 0 0;
+    }
+
+    .protection-content h4 {
+        font-size: 29px;
+        line-height: 42px;
+    }
+
+    .gaas-btn.protection {
+        text-align: left;
+        margin-top: 13px;
+    }
+
+    .choose-us-thumb-items {
+        margin-top: 30px;
+    }
+
+    .choose-us-thumb img {
+        width: 100%;
+    }
+
+    .choose-us-thumb.three {
+        display: none;
+    }
+
+    ul.tabs {
+        margin: 20px 10px 30px;
+    }
+
+    .testimonial-section {
+        padding: 70px 0 70px;
+    }
+
+    .testimonial-single-box {
+        padding: 32px 10px 40px;
+    }
+
+    .testimonial-description::before {
+        top: 17px;
+    }
+
+    .testimonial-thumb img {
+        width: 100%;
+    }
+
+    .testimonial-counter {
+        left: 0;
+        top: 91px;
+    }
+
+    .footer-section {
+        padding: 67px 0 0px;
+    }
+
+    .footer-wiget {
+        margin-bottom: 30px;
+    }
+
+    .footer-wiget.inner3 {
+        display: none;
+    }
+
+    .footer-wiget.inner {
+        left: -7px;
+    }
+
+    .footer-wiget.inner::before {
+        display: none;
+    }
+
+    .footer-wiget-logo {
+        top: -22px;
+    }
+
+    .footer-wiget-text h4 {
+        width: 100%;
+        margin: auto;
+        padding: 0 0 22px;
+    }
+
+    .choose-us-text {
+        width: 326px;
+        height: 120px;
+        padding: 27px 40px 0;
+    }
+
+    .choose-us-text h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .contact-us-form {
+        padding: 70px 0 70px;
+    }
+
+    .get-in-thumb img {
+        width: 100%;
+    }
+
+    .get-in-contact {
+        padding: 50px 10px 68px;
+    }
+
+    span.inner {
+        display: none;
+    }
+
+    .gaas-btn.solution {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .mobile-menu-section {
+        background: #001d85 !important;
+    }
+
+    .mobile-menu-section.sticky-menu {
+        background: #001d85 !important;
+    }
+
+    .hero-carousel .active .slide-item .image-layer {
+        background-position: center center;
+        background-size: cover;
+        height: 750px;
+    }
+
+    .feature-description p {
+        margin-bottom: 30px;
+    }
+
+    .about-us-section {
+        padding: 50px 0 65px;
+    }
+
+    .choose-us-section {
+        padding: 70px 0 0px;
+    }
+
+    .choose-us-section::before {
+        display: none;
+    }
+
+    .section-main-title.inner h2 {
+        font-size: 26px;
+    }
+
+    .choose-us-list span {
+        font-size: 17px;
+    }
+
+    .call-do-title h2 {
+        font-size: 21px;
+        line-height: 37px;
+    }
+
+    .faq-items-box {
+        margin-top: 30px;
+        padding: 30px 10px 30px;
+    }
+
+    .section-sub-title h4 {
+        font-size: 16px;
+    }
+
+    .breatcome-section {
+        padding: 120px 0 100px;
+    }
+
+    .breatcome-title h1 {
+        font-size: 34px;
+    }
+
+    .breatcome-description p {
+        font-size: 20px;
+    }
+
+    .about-us-section.inner-page {
+        padding: 74px 0 74px;
+    }
+
+    .team-section {
+        padding: 66px 0 148px;
+    }
+
+    .team-single-box.inner {
+        margin-top: 100px;
+    }
+
+    .team-single-box.inner2 {
+        margin-top: 100px;
+    }
+
+    .team-thumb img {
+        width: 100%;
+    }
+
+    .team-social-icon {
+        right: 0px;
+    }
+
+    .faq-section {
+        padding: 72px 0 59px;
+    }
+
+    .faq-section .row.p-90 {
+        padding: 0;
+    }
+
+    .accordion li a span {
+        font-size: 14px;
+    }
+
+    .accordion li a {
+        padding: 12px 6px 12px;
+    }
+
+    .accordion li p {
+        padding: 11px 9px 28px;
+        font-size: 14px;
+    }
+
+    .error-section {
+        padding: 74px 0 73px;
+    }
+
+    .faq-thumb img {
+        width: 100%;
+    }
+
+    .gaas-btn.error {
+        margin-left: 70px;
+    }
+
+    .widget-contact-box {
+        padding: 63px 20px 57px;
+    }
+
+    .widget-download-box {
+        margin-bottom: 60px;
+    }
+
+    .widget-download-btn a {
+        padding: 22px 18px;
+    }
+
+    .team-details-section {
+        padding: 72px 0 0;
+    }
+
+    .team-details-section .process-ber-plugin {
+        margin: 40px 0 0;
+    }
+
+    span.process-bar {
+        font-size: 16px;
+    }
+
+    .team-details-section .barfiller {
+        width: 100%;
+    }
+
+    .barfiller .tip {
+        font-size: 16px;
+        top: -41px;
+    }
+
+    .row.author-info {
+        margin-top: 0;
+        padding: 35px 12px 25px;
+    }
+
+    .team-author-socila {
+        text-align: left;
+        margin-right: 0;
+        margin-top: 24px;
+    }
+
+    .team-author-socila ul li {
+        margin: 0px 0px 0;
+        display: inline-block;
+    }
+
+    .text-sm-end {
+        margin-top: 15px;
+    }
+
+    .widget_search.box {
+        margin-top: 30px;
+    }
+
+    .widget-recent-box {
+        padding: 50px 15px 55px;
+    }
+
+    .sidber-widget-recent-post {
+        padding: 16px 10px;
+    }
+
+    .recent-widget-thumb {
+        margin-right: 10px;
+        margin-top: 14px;
+    }
+
+    .recent-widget-title h4 a {
+        font-size: 16px;
+    }
+
+    .widget-tags a {
+        padding: 7px 8px;
+    }
+
+    .sidebar-group .sidebar-widget {
+        width: 80%;
+    }
+
+    .sidebar-textwidget {
+        padding: 40px 15px;
+    }
+
+    .sidebar-group .widget-heading {
+        top: 40px;
+    }
+
+    .shifa-preloader .animation-preloader .txt-loading .letters-loading{
+        font-size: 45px;
+        letter-spacing: 8px;
+      }
+}
