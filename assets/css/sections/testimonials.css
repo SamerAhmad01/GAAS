@@ -42,49 +42,9 @@
     height: 100%;
 }
 
-.testimonial-title {
-    margin-bottom: 7px;
-}
-
-.testimonial-title h4 {
-    font-size: 24px;
-    line-height: 28px;
-    color: #23222a;
-    font-weight: 700;
-}
-
-.testimonial-title span {
-    font-size: 16px;
-    line-height: 37px;
-    color: #505050;
-    font-weight: 400;
-}
-
 .testimonial-icon i {
     color: #050953;
     font-size: 18px;
-}
-
-.testimonial-description {
-    position: relative;
-}
-
-.testimonial-description::before {
-    position: absolute;
-    content: "";
-    width: 1px;
-    height: 58px;
-    background-color: #050953;
-    left: 0;
-    top: -7px;
-}
-
-.testimonial-description p {
-    font-size: 16px;
-    line-height: 24px;
-    color: #505050;
-    font-weight: 400;
-    margin: 27px 22px 0;
 }
 
 .testimonial-quote {
@@ -109,48 +69,42 @@
     position: relative;
 }
 
-.testimonial-counter {
-    position: absolute;
-    top: 20px;
-    right: -130px;
-    width: 184px;
-    height: 91px;
-    background-color: #050953;
-    padding: 14px 8px 0;
-    z-index: 1;
+.testimonial-title {
+    margin-bottom: 7px;
 }
 
-.testimonial-counter::before {
-    position: absolute;
-    content: "";
-    height: 35px;
-    width: 40px;
-    background: #050953;
-    bottom: -19px;
-    right: 20px;
-    clip-path: polygon(82% 41%, 106% 40%, 50% 100%, 0% 42%);
-    z-index: -1;
-    transition: .5s;
-}
-
-.testimonial-counter h4 {
+.testimonial-title h4 {
     font-size: 24px;
     line-height: 28px;
-    color: #ffffff;
-    font-weight: 600;
-    display: inline-block;
+    color: #23222a;
+    font-weight: 700;
 }
 
-.testimonial-counter span {
-    font-size: 22px;
-    color: #ffffff;
-    font-weight: 600;
-    display: inline-block;
-}
-
-.testimonial-counter p {
-    font-size: 20px;
-    line-height: 28px;
-    color: #ffffff;
+.testimonial-title span {
+    font-size: 16px;
+    line-height: 37px;
+    color: #505050;
     font-weight: 400;
+}
+
+.testimonial-description {
+    position: relative;
+}
+
+.testimonial-description::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 58px;
+    background-color: #050953;
+    left: 0;
+    top: -7px;
+}
+
+.testimonial-description p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+    font-weight: 400;
+    margin: 27px 22px 0;
 }
