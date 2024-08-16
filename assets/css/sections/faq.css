@@ -31,11 +31,11 @@
 .accordion li a i {
     width: 36px;
     height: 36px;
-    background: #050953;
     display: inline-block;
     text-align: center;
     line-height: 38px;
-    color: #fff;
+    color: #050953;
+    font-size: 20px;
 }
 
 .accordion li a.inner i {
@@ -48,8 +48,7 @@
 }
 
 .accordion a.active i {
-    color: #fff;
-    background: #050953;
+    color: #050953;
     border: none;
     margin-bottom: 0;
     transform: rotate(90deg);

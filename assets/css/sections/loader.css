@@ -84,7 +84,7 @@
     letter-spacing: 12px;
     display: inline-block;
     position: relative;
-    font-size: 300px;
+    font-size: 200px;
     line-height: 70px;
     text-transform: uppercase;
     color: transparent;
@@ -109,10 +109,6 @@
   .preloader .loaded .animation-preloader {
     opacity: 0;
     transition: 0.5s ease-out;
-  }
-  
-  .handle-preloader .animation-preloader .txt-loading .letters-loading{
-    
   }
   
   .shifa-preloader .animation-preloader .txt-loading .letters-loading:before{

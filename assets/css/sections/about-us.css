@@ -1,18 +1,10 @@
 .about-us-section {
-    padding: 0 0 120px;
-    background: url(../../images/resource/get-ng.jpg);
     padding: 110px 0 120px;
+    background: url(../../images/about-us/about-us-bg.jpg);
 }
 
 .about-us-thumb img {
     width: 100%;
-}
-
-.about-us-description p {
-    font-size: 16px;
-    line-height: 24px;
-    color: #505050;
-    font-weight: 400;
 }
 
 .about-us-phone {
@@ -61,10 +53,6 @@
     color: #050953;
 }
 
-.section-main-title.about-us h2 {
-    margin-bottom: 20px;
-}
-
 ul.tabs {
     margin: 20px 0 60px;
 }
@@ -90,3 +78,9 @@ ul.tabs {
     color: #FFF !important;
 }
 
+.about-us-description p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+    font-weight: 400;
+}

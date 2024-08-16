@@ -5,15 +5,13 @@
     height: 100vh;
     display: flex;
     align-items: flex-start;
-    padding-top: 200px; 
+    padding-top: 150px; 
 }
-
 
 .hero-content {
     max-width: 700px;
 }
 
-.hero-sub-title,
 .hero-main-title,
 .hero-description,
 .gaas-btn.slider {
@@ -28,22 +26,12 @@
 .hero-main-title h1 {
     font-size: 72px;
     line-height: 82px;
-    color: #003a37;
+    color: #23222a;
     font-weight: 800;
 }
 
-.hero-sub-title h4 {
-    border-radius: 16px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #050953;
-    background: #FFF;
-    display: inline-block;
-    padding: 6px 18px;
-}
-
 .hero-description p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #505050;
     font-weight: 400;
@@ -59,7 +47,6 @@
     border-radius: 5px;
 }
 
-.active .hero-sub-title,
 .active .hero-main-title,
 .active .hero-description,
 .active .gaas-btn.slider {

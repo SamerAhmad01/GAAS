@@ -60,3 +60,16 @@
     color: #ffffff;
     font-weight: 700;
 }
+
+.about-us-section-main-title h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #23222a;
+    font-weight: 800;
+    font-family: "Raleway";
+}
+
+.about-us-section-main-title.inner h2 {
+    color: #ffffff;
+    font-weight: 700;
+}

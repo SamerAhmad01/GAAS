@@ -33,7 +33,7 @@
 }
 
 .choose-us-section {
-    background: url(../../images/resource/choose-us-bg.png);
+    background: url(../../images/choose-us/choose-us-bg-1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     content: "";
     width: 40%;
     height: 100%;
-    background: url(../../images/resource/choose-us-bg2.png);
+    background: url(../../images/choose-us/choose-us-bg-2.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
