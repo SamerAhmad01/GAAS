@@ -2,27 +2,27 @@
     background-color: #050953;
 }
 
-.custom-footer {
+.gaas-footer {
     padding-top: 80px;
     padding-bottom: 40px;
 }
 
-.custom-widget {
+.gaas-footer-widget {
     text-align: left;
 }
 
-.custom-footer-heading {
+.gaas-footer-heading {
     font-size: 24px;
     margin-bottom: 15px;
     color: #ffffff;
 }
 
-.custom-list {
+.gaas-footer-list {
     list-style: none;
     padding-left: 0;
 }
 
-.custom-link {
+.gaas-footer-link {
     color: #A9A9A9;
     text-decoration: none;
     display: block;
@@ -30,11 +30,11 @@
     font-size: 16px;
 }
 
-.custom-link:hover {
+.gaas-footer-link:hover {
     color: #ffffff;
 }
 
-.custom-social ul {
+.gaas-footer-social ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -42,22 +42,22 @@
     justify-content: left; 
 }
 
-.custom-social ul li {
+.gaas-footer-social ul li {
     display: inline-block;
 }
 
-.custom-social ul li a {
+.gaas-footer-social ul li a {
     color: #ffffff;
     font-size: 18px;
     display: block;
     transition: color 0.3s ease;
 }
 
-.custom-social ul li a:hover {
+.gaas-footer-social ul li a:hover {
     color: #f8b400;
 }
 
-.custom-social ul li a i {
+.gaas-footer-social ul li a i {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -67,33 +67,33 @@
     transition: all 0.3s ease;
 }
 
-.custom-widget-social {
+.gaas-footer-widget-social {
     margin-bottom: 32px;
 }
 
-.custom-social ul li a:hover i {
+.gaas-footer-social ul li a:hover i {
     background-color: #ffffff;
     color: #050953;
     border-color: #f8b400;
 }
 
-.custom-subscribe-form .form-control {
+.gaas-footer-subscribe-form .form-control {
     flex: 1;
     margin-right: 5px;
 }
 
-.custom-subscribe-form .btn {
+.gaas-footer-subscribe-form .btn {
     padding: 10px 20px;
     background-color: #A9A9A9;
     border: none;
     color: white;
 }
 
-.custom-subscribe-form .btn:hover {
+.gaas-footer-subscribe-form .btn:hover {
     background-color: #8d8c8c;
 }
 
-.custom-copyright {
+.gaas-footer-copyright {
     font-size: 14px;
     color: #777;
 }
