@@ -21,7 +21,7 @@
 
 .choose-us-section-sub-title h4 {
     font-size: 19px;
-    color: #ffffff;
+    color: #A9A9A9;
     font-weight: 600;
     font-family: "Raleway";
     margin-bottom: 12px;
@@ -35,7 +35,7 @@
     content: "";
     width: 82px;
     height: 2px;
-    background: #ffffff;
+    background: #A9A9A9;
     left: 0;
     top: 50%;
 }

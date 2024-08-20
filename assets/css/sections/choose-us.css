@@ -1,5 +1,3 @@
-
-
 .choose-us-list span {
     display: block;
     margin-bottom: 28px;
@@ -7,22 +5,6 @@
     line-height: 24px;
     color: #ffffff;
     font-weight: 600;
-}
-
-.choose-us-thumb-items {
-    position: relative;
-}
-
-.choose-us-thumb {
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.choose-us-thumb.three {
-    position: absolute;
-    right: -40px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .choose-us-section {
@@ -54,7 +36,7 @@
 }
 
 .section-main-title.choose-us h2 {
-    color: #ffff;
+    color: #A9A9A9;
 }
 
 .choose-us-description p {

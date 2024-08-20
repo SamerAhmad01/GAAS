@@ -3,6 +3,11 @@
     background: url(../../images/about-us/about-us-bg.jpg);
 }
 
+.values-section {
+    padding: 110px 0 120px;
+    background: url(../../images/choose-us/choose-us-bg-1.png);
+}
+
 .about-us-thumb img {
     width: 100%;
 }
@@ -83,4 +88,81 @@ ul.tabs {
     line-height: 24px;
     color: #505050;
     font-weight: 400;
+}
+
+.about-us-section-main-title h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #23222a;
+    font-weight: 800;
+    font-family: "Raleway";
+}
+
+.about-us-section-main-title.inner h2 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.about-us-hero-section {
+    background: url(../../images/resource/bretcome-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 154px 0;
+}
+
+.about-us-hero-content {
+    position: relative;
+}
+
+.about-us-hero-description p {
+    text-align: center;
+    font-size: 28px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.values-description p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.about-us-hero-title h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+.values-section-sub-title h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    margin-bottom: 12px;
+    padding: 0 95px;
+    position: relative;
+    display: inline-block;
+}
+
+.values-section-sub-title h4::before {
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: 2px;
+    background: #ffffff;
+    left: 0;
+    top: 50%;
+}
+
+.values-section-sub-title.inner h4 {
+    color: #ffffff;
+}
+
+.values-section-sub-title.inner h4::before {
+    background: #ffffff;
 }
