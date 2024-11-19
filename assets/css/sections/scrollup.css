@@ -1,13 +1,13 @@
 .progress-scrollup {
     position: fixed;
-    right: 55px;
-    bottom: 30px;
+    right: 20px;
+    bottom: 20px;
     height: 48px;
     width: 48px;
     cursor: pointer;
     display: block;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px #A9A9A9;
+    box-shadow: inset 0 0 0 2px #3A95FF;
     z-index: 2;
     opacity: 0;
     visibility: hidden;
@@ -29,7 +29,7 @@
     text-align: center;
     line-height: 46px;
     font-size: 16px;
-    color: #A9A9A9;
+    color: #3A95FF;
     left: 0;
     top: 0;
     height: 46px;
@@ -42,7 +42,7 @@
 }
 
 .progress-scrollup:hover::after {
-    color: #A9A9A9;
+    color: #3A95FF;
 }
 
 .progress-scrollup svg path {
@@ -50,7 +50,7 @@
 }
 
 .progress-scrollup svg.progress-circle path {
-    stroke: #A9A9A9;
+    stroke: #3A95FF;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
